@@ -1,0 +1,29 @@
+{% extends 'todo/base.html' %}
+
+{% block content %}
+<div class="container d-flex justify-content-center">
+    <div class="block text-left">
+        <h1 class="mb-4">Current Todos</h1>
+        {% if todos %}
+        <div class="list-group">
+            
+            {% for todo in todos %}
+            <a href="{% url 'viewtodo' todo.id %}"  class="{% if todo.important %}list-group-item-important{% endif %} list-group-item" >
+                <b>{{ todo.title }}</b>
+                {% if todo.description %} - {{ todo.description }}{% endif %}
+            </a>
+            {% endfor %}
+            
+            
+        </div>
+        {% else %}
+        <div class="text-center"> 
+            <h2 class="mb-3">Looks like you don't have any todos.</h2>
+            
+            <a class="my-btn btn mb-3" href="{% url 'createtodo' %}">New Todo</a>
+        </div>
+        {% endif %}
+    </div>
+</div>
+
+{% endblock %}

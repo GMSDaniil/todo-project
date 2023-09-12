@@ -1,0 +1,90 @@
+body{
+    background-color: #5CDB95;
+    color: #05386B;
+}
+
+.icon{
+    margin-right: 0.5%;
+    width: 3%;
+    height: 3%;
+}
+
+.navbar-toggler {
+    border-color: #379683;
+}
+
+
+ .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(92,219,149,1.00)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+.nav-link, .navbar-brand{
+    color: #EDF5E1; 
+}
+
+.nav-link:hover, .navbar-brand:hover{
+    color: #379683;
+}
+
+
+.navbar{
+    padding-left: 10%;
+    padding-right: 10% ;
+}
+
+.signlog{
+    position: absolute;
+    right:10%;
+    top:16%;
+}
+
+
+.block{
+    width: 60%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.my-btn{
+    color: #EDF5E1;
+    background-color: #05386B;
+    border-color: #05386B;
+}
+
+.my-btn:hover{
+    background-color: #379683;
+    border-color: #379683;
+}
+
+.my-btn:active{
+    background-color: #05386B;
+    border-color: #05386B;
+}
+
+.error{
+    width: 300px;
+}
+
+.list-group-item{
+    background-color: #8EE4AF;
+    border-color: #8EE4AF;
+    color:#05386B;
+}
+
+.list-group-item:hover{
+    background-color: #379683;
+    border-color: #379683;
+    color:#05386B;
+}
+
+.list-group-item-important{
+    background-color: #05386B;
+    border-color: #05386B;
+    color:#EDF5E1;
+}
+
+.box{
+    display: inline-block;
+    text-align: center;
+}
