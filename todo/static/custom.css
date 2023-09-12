@@ -9,6 +9,28 @@ body{
     height: 3%;
 }
 
+@media screen and (max-width: 480px) {
+    .icon{
+        margin-right: 0.5%;
+        width: 16%;
+        height: 16%;
+    }
+  }
+
+.signlog{
+    position: absolute;
+    right:10%;
+    top:16%;
+}
+
+@media screen and (max-width: 480px) {
+    .signlog{
+        all: initial;
+        all: unset;
+    }
+  }
+
+
 .navbar-toggler {
     border-color: #379683;
 }
@@ -33,11 +55,7 @@ body{
     padding-right: 10% ;
 }
 
-.signlog{
-    position: absolute;
-    right:10%;
-    top:16%;
-}
+
 
 
 .block{
